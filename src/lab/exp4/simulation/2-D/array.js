@@ -119,7 +119,7 @@ window.view = {
 	},
 	generateFirstMatrixElements: function() {
 		var size = this.rowsA * this.colsA
-		for ( i = 0 ; i <=size ; i++)
+		for ( i = 1 ; i <=size ; i++)
 		{
 			var random = Math.floor(i)
 			console.log(random)
